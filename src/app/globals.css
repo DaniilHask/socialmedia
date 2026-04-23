@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Bold.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Extralight.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Light.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Medium.otf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Regular.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Semibold.otf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Italic-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-VariableFont_opsz\,wght.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+h1 {
+  font-family: ClashDisplay, sans-serif;
+  font-weight: 600;
+}
